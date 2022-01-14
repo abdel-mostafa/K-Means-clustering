@@ -5,7 +5,7 @@ from sklearn.cluster import KMeans
 from sklearn.metrics.cluster import normalized_mutual_info_score
 plt.style.use('ggplot')
 
-df = pd.read_csv('c:\\Users\\Abdulrahman\\Desktop\\Machine Learning\\seeds_dataset.csv')
+df = pd.read_csv('.....................\seeds_dataset.csv')
 df.replace('?', -99999, inplace=True)
 df.columns = ['x1', 'x2', 'x3', 'x4', 'x5', 'x6', 'x7', 'label']
 
